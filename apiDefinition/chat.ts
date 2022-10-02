@@ -1,4 +1,4 @@
-import { User } from "./apiDefinition/authentication";
+import { User } from "./authentication";
 
 interface Room {
   id: string;
@@ -25,4 +25,7 @@ interface GetRoomMessages {
   maxMemssages: number;
 }
 
-interface RoomMessagesList {}
+// To do
+interface RoomMessagesList {
+
+}
